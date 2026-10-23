@@ -17,3 +17,8 @@ aside:hover {
 .menu {
   display: inline-block;
 }
+
+/* Remove the dot points if the menu is built as a list */
+nav ul {
+  list-style: none;
+}
